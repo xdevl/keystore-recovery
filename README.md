@@ -7,11 +7,11 @@ For more details about this program, see [How to recover a lost Android keystore
 
 Before to start you will more likely want to configure a few things. All the configuration is done via static variables you will find at the beginning of Main.java:
 
-`sKeyStoreFile`: Absolute path to the keystore file to brute force
-`sAlias`: The key alias you want to brute force the password of (if none, the first one found will be used)
-`sThreadNum`: The number of threads you want to use to do the attack (if none, will be defaulted to the number of core of your machine)
-`sMinusCaseLetters, sUpperCaseLetters, sNumbers, sSymbols`: Default sets of symbols to use, feel free to change them as you want (ie: the less the better)
-`sWords`: A list of words your password may contains
+- `sKeyStoreFile`: Absolute path to the keystore file to brute force
+- `sAlias`: The key alias you want to brute force the password of (if none, the first one found will be used)
+- `sThreadNum`: The number of threads you want to use to do the attack (if none, will be defaulted to the number of core of your machine)
+- `sMinusCaseLetters, sUpperCaseLetters, sNumbers, sSymbols`: Default sets of symbols to use, feel free to change them as you want (ie: the less the better)
+- `sWords`: A list of words your password may contains
 
 
 # Compilation
