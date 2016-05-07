@@ -57,10 +57,10 @@ public class Main
 
         public static String toString(List<String> symbols)
         {
-            String buffer="" ;
+            StringBuffer buffer=new StringBuffer() ;
             for(String symbol: symbols)
-                buffer+=symbol ;
-            return buffer ;
+                buffer.append(symbol) ;
+            return buffer.toString() ;
         }
 
         private KeyStore mKeyStore ;
